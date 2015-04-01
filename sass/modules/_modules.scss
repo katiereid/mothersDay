@@ -1,0 +1,39 @@
+header {
+  @include outer-container(97%);
+  border-bottom: $borderLine;
+}
+
+.artMod {
+  @include span-columns(10);
+  float: right;
+  padding: 1em;
+  border-left: $borderLine;
+}
+
+.sectionHeader {
+  margin-left: 1.2em;
+}
+
+.navLink1:hover {
+  color:red;
+}
+
+.navLink2:hover {
+  color:orange;
+}
+
+.navLink3:hover {
+  color: yellow;
+}
+
+.navLink4:hover {
+  color: green;
+}
+
+.navLink5:hover {
+  color: blue;
+}
+
+
+
+

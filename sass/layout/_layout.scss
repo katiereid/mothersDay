@@ -1,0 +1,23 @@
+.logo {
+  @include span-columns(5);
+  display: inline;
+}
+
+.navBar {
+  @include span-columns(5);
+  float: right;
+  margin-top: .67em;
+}
+
+.navItem {
+  @include span-columns(1 of 5);
+  text-align: center;
+}
+
+.main {
+  @include outer-container(97%);
+}
+
+.featured {
+  @include span-columns(9 of 10);
+}
