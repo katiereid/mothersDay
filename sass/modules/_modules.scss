@@ -15,22 +15,27 @@ header {
 }
 
 .navLink1:hover {
+  @include span-columns(1 of 5);
   color:red;
 }
 
 .navLink2:hover {
+  @include span-columns(1 of 5);
   color:orange;
 }
 
 .navLink3:hover {
+  @include span-columns(1 of 5);
   color: yellow;
 }
 
 .navLink4:hover {
+  @include span-columns(1 of 5);
   color: green;
 }
 
 .navLink5:hover {
+  @include span-columns(1 of 5);
   color: blue;
 }
 

@@ -370,6 +370,9 @@ ol, ul {
 body {
   font-family: applegothic; }
 
+figure {
+  margin-bottom: 1em; }
+
 figcaption {
   padding: .2em; }
 
@@ -401,7 +404,8 @@ footer {
   display: block;
   margin-right: 5.85151%;
   width: 15.3188%;
-  text-align: center; }
+  text-align: center;
+  display: inline; }
   .navItem:last-child {
     margin-right: 0; }
 
@@ -447,18 +451,48 @@ header {
   margin-left: 1.2em; }
 
 .navLink1:hover {
+  float: left;
+  display: block;
+  margin-right: 5.85151%;
+  width: 15.3188%;
   color: red; }
+  .navLink1:hover:last-child {
+    margin-right: 0; }
 
 .navLink2:hover {
+  float: left;
+  display: block;
+  margin-right: 5.85151%;
+  width: 15.3188%;
   color: orange; }
+  .navLink2:hover:last-child {
+    margin-right: 0; }
 
 .navLink3:hover {
+  float: left;
+  display: block;
+  margin-right: 5.85151%;
+  width: 15.3188%;
   color: yellow; }
+  .navLink3:hover:last-child {
+    margin-right: 0; }
 
 .navLink4:hover {
+  float: left;
+  display: block;
+  margin-right: 5.85151%;
+  width: 15.3188%;
   color: green; }
+  .navLink4:hover:last-child {
+    margin-right: 0; }
 
 .navLink5:hover {
+  float: left;
+  display: block;
+  margin-right: 5.85151%;
+  width: 15.3188%;
   color: blue; }
+  .navLink5:hover:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=application.css.map */

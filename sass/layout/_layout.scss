@@ -12,6 +12,7 @@
 .navItem {
   @include span-columns(1 of 5);
   text-align: center;
+  display:inline;
 }
 
 .main {
